@@ -1,0 +1,200 @@
+﻿# Turbo Backup PRO - Release notes
+
+## 2021.1.1 - 26.02.2021
+* Updated to Common 2021.1.1
+
+## 2021.1.0 - 03.01.2021
+* Fix backup date for "Custom Backup Path"
+* URLs updated
+* Updated to Common 2021.1.0
+
+## 2020.4.5 - 17.12.2020
+* Improved for Unity 2020.2
+* Documentation updated
+* Updated to Common 2020.4.8
+
+## 2020.4.4 - 15.12.2020
+* Editor integration improved
+
+## 2020.4.3 - 13.12.2020
+* Planned final release for 2020
+* Example integration improved
+* New Youtube video added: https://youtu.be/tqy0tP9EN9s 
+* Updated to Common 2020.4.7
+
+## 2020.4.2 - 09.12.2020
+* Backup date is now part of the backup itself
+* Auto save disabled per default
+* Updated to Common 2020.4.6
+
+## 2020.4.1 - 19.10.2020
+* Automatic backup interval added
+* Auto save of all modified scenes added
+* Legacy-mode calls "OnBackupComplete" and "OnRestoreComplete"
+* Code improved
+* Updated to Common 2020.4.4
+
+## 2020.4.0 - 07.09.2020
+* Big code overhaul
+* Dropped support for versions before Unity 2018.4
+* Updated to Common 2020.4.3
+
+## 2020.3.0 - 03.07.2020
+* Events added for "BAR":
+  * OnBackupStart
+  * OnBackupComplete
+  * OnRestoreStart
+  * OnRestoreComplete
+* Updated to Common 2020.3.0
+
+## 2020.2.4 - 19.06.2020
+* Unnecessary files deleted
+* Updated to Common 2020.2.1
+
+## 2020.2.3 - 24.05.2020
+* Updated to Common 2020.2.0
+
+## 2020.2.2 - 18.05.2020
+* Editor improved
+* Compile defines can now be disabled
+* Integration for Unity 2020 improved
+
+## 2020.2.1 - 15.04.2020
+* Documentation updated
+* Updated to Common 2020.1.3
+
+## 2020.2.0 - 25.03.2020
+* BAR: methods "Restore" and "Backup" are returning a bool to indicate if the operations were successful
+* PlasticSCM added as VCS option
+* Integration for RockTomate
+
+## 2020.1.2 - 05.03.2020
+* ReminderCheck removed
+* Updated to Common 2020.1.2
+
+## 2020.1.1 - 06.02.2020
+* Support for Unity 2020
+* Updated to Common 2020.1.1
+
+## 2020.1.0 - 09.01.2020
+* asmdef added
+* Editor integration improved
+* Updated to Common 2020.1.0
+
+## 2019.5.4 - 17.12.2019
+* Small fixes for Unity 2019+
+
+## 2019.5.3 - 06.12.2019
+* Editor integration improved
+* Updated to Common 2019.5.4
+
+## 2019.5.2 - 20.11.2019
+* UI improved
+* VCS selection unified between TPS and TB
+* Updated to Common 2019.5.3
+
+## 2019.5.1 - 10.11.2019
+* Show backup added
+* Improvements for new implementation
+* Updated to Common 2019.5.2
+
+## 2019.5.0 - 08.10.2019
+* Biggest code overhaul since the release 
+* Updated to Common 2019.5.0
+
+## 2019.4.2 - 26.09.2019
+* ReminderCheck changed
+* UpdateCheck is now set to "false" per default (enable it in the configuration)
+* Code cleanup
+
+## 2019.4.1 - 23.09.2019
+* Added and example integration for the users (see TBMenu.cs)
+* Update check default set to false
+* Reminder check default set to false
+
+## 2019.4.0 - 19.09.2019
+* New backup&restore methods implemented: TB no longer closes and restarts Unity! For the old implementation enable "Legacy Mode" in the configuration.
+* Backup and restore are now even faster!
+* Editor integration improved
+* Code improvements
+
+## 2019.3.1 - 02.09.2019
+* Updated for Unity 2019.2 and higher
+* Updated to Common 2019.4.1
+
+## 2019.3.0 - 26.07.2019
+* Updated for Unity 2017.4 and higher
+* Added compatibility with assembly definitions
+* Updated to Common 2019.4.0
+
+## 2019.2.2 - 27.05.2019
+* Automatically setup Unity after a restore
+* Editor UI cleanup
+* Updated to Common 2019.3.2
+
+## 2019.2.1 - 10.04.2019
+* CLI improved
+* Editor improvements
+* Updated to Common 2019.2.5
+
+## 2019.2.0 - 12.03.2019
+* Pre- and post-method execution
+* Namespace changed from "Crosstales.TurboBackup" to "Crosstales.TB"
+* Updated to Common 2019.2.3
+
+## 2019.1.1 - 12.02.2019
+* "Delete UnityLockfile" is now part of the configuration
+* Asset cleanup
+* Updated to Common 2019.2.1
+
+## 2019.1.0 - 15.01.2019
+* Various improvements and fixes
+* Updated to Common 2019.1.0
+
+## 2018.4.0 - 01.11.2018
+* macOS and Linux: backup process improved
+* Execute methods for backup and restore
+* Helper.cs: RestartUnity added
+* Updated to Common 2018.4.0
+
+## 2018.3.1 - 18.10.2018
+* Info about the current project added to the backup/restore-process
+* Windows Editor: backup speed improved
+* Updated to Common 2018.3.1
+
+## 2018.3.0 - 08.10.2018
+* Minimum Unity version is now 5.6
+* Common 2018.3.0 added
+
+## 2018.2.1 - 21.09.2018
+* Copy for "Packages"-folder added (Unity 2017.4+)
+* VCS: Collab ignore file support added
+* Config is now independent from the Unity PlayerPrefs
+* Small improvements for the backup process
+* UpdateCheck: runs in a separate thread
+* Common 2018.2.1 added
+* Tested with Unity 2018.3
+
+## 2018.2.0 - 21.08.2018
+* Delete operation is now non-blocking
+* Common 2018.2.0 added
+* Discord channel added
+* Standard version removed
+
+## 1.1.2 - 21.06.2018
+* Unity Editor: performance improved and backup usage moved to the "Config"-tab
+* "Copy Library" is disabled per default
+
+## 1.1.1 - 07.06.2018
+* BAR: namespaces improved
+* Editor integration improved
+* Official support for Unity 2018.1 & 2018.2
+
+## 1.1.0 - 02.04.2018
+* Handling of git improved
+* Editor integration improved
+* Documentation improved
+* Common 1.2.6 added
+
+## 1.0.0 - 14.03.2018
+* Production release for UAS
